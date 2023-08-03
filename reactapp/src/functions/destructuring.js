@@ -1,4 +1,4 @@
-function getUserIpDetails(userResponse ={})
+function getUserIPDetails(userResponse ={})
 {
     const { userName, userIp = '0.0.0.0'} = userResponse;
     return [userName, userIp];
